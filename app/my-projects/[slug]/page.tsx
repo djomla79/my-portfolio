@@ -43,12 +43,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description:
         project.description ||
         'Detailed project description by Mladen Todorović.',
-      url: `https://tvoj-portfolio.com/my-projects/${realParams.slug}`,
+      url: `https://my-portfolio-mladen-todorovic.vercel.app/my-projects/${realParams.slug}`,
       images: [
         {
           url:
             project.imageUrl ||
-            'https://tvoj-portfolio.com/default-og-image.jpg',
+            'https://my-portfolio-mladen-todorovic.vercel.app/my-projects.png',
           width: 1200,
           height: 630,
           alt: project.title,

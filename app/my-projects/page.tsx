@@ -19,11 +19,11 @@ export const metadata: Metadata = {
     title: 'My Projects | Mladen Todorović',
     description:
       'Explore the diverse portfolio of projects by Mladen Todorović, including live applications, legacy systems, and other notable work.',
-    url: 'https://your-actual-domain.com/my-projects',
+    url: 'https://my-portfolio-mladen-todorovic.vercel.app/my-projects',
     siteName: 'Mladen Todorović Portfolio',
     images: [
       {
-        url: 'https://your-actual-domain.com/images/my-projects.jpg',
+        url: 'https://my-portfolio-mladen-todorovic.vercel.app/images/my-projects.png',
         width: 1200,
         height: 630,
         alt: 'Mladen Todorović - My Projects',

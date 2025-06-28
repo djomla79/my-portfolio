@@ -1,9 +1,10 @@
-'use client';
+import ClientLayout from '@/components/layout/ClientLayout';
 
-import Providers from '../components/providers/Providers';
-import Navbar from '../components/navigation/Navbar';
-
-import './globals.css';
+export const metadata = {
+  verification: {
+    google: 'H_53LpgYC75gy-aYmqhM43C0xgUCxptcEDHKdwkLcUY',
+  },
+};
 
 export default function RootLayout({
   children,
@@ -13,10 +14,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className='bg-gray-50 text-gray-900'>
-        <Providers>
-          <Navbar />
-          <main className='container mx-auto px-4 py-8'>{children}</main>
-        </Providers>
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );

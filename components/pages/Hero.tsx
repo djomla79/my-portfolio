@@ -17,11 +17,11 @@ export const metadata: Metadata = {
     title: 'Mladen Todorovic | Portfolio',
     description:
       'Portfolio of Mladen Todorovic, an experienced Frontend and Full Stack Developer.',
-    url: 'https://your-actual-domain.com',
+    url: 'https://my-portfolio-mladen-todorovic.vercel.app',
     siteName: 'Mladen Todorovic Portfolio',
     images: [
       {
-        url: 'https://your-actual-domain.com/images/home.jpg',
+        url: 'https://my-portfolio-mladen-todorovic.vercel.app/images/home.png',
         width: 1200,
         height: 630,
         alt: 'Mladen Todorovic Portfolio',
