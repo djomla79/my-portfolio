@@ -1,5 +1,3 @@
-'use client';
-
 import Providers from '../components/providers/Providers';
 import Navbar from '../components/navigation/Navbar';
 
