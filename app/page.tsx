@@ -7,6 +7,7 @@ export const metadata: Metadata = {
     'Portfolio of Mladen Todorovic, an experienced Frontend and Full Stack Developer skilled in React, Next.js, and modern web technologies.',
   keywords: [
     'Mladen Todorović',
+    'Mladen Todorovic',
     'Frontend Developer',
     'Full Stack Developer',
     'React Developer',

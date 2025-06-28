@@ -31,6 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       'Detailed project description by Mladen Todorović.',
     keywords: [
       'Mladen Todorović',
+      'Mladen Todorovic',
       'Frontend Developer',
       'Full Stack Developer',
       'React Developer',

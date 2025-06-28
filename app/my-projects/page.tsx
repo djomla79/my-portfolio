@@ -7,6 +7,7 @@ export const metadata: Metadata = {
     'Explore the diverse portfolio of projects by Mladen Todorović, including live applications, legacy systems, and other notable work.',
   keywords: [
     'Mladen Todorović',
+    'Mladen Todorovic',
     'Frontend Developer',
     'Full Stack Developer',
     'React Developer',
