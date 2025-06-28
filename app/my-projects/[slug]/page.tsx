@@ -4,14 +4,13 @@ import { LIVE_PROJECTS, OTHER_PROJECTS } from '@/lib/constants/my-projects';
 import { toSlug } from '@/lib/utils/helper-functions';
 
 type Props = {
-  params: {
-    slug: string;
-  };
+  params: Promise<{ slug: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const realParams = await params;
   const allProjects = [...LIVE_PROJECTS, ...OTHER_PROJECTS];
-  const project = allProjects.find((p) => toSlug(p.title) === params.slug);
+  const project = allProjects.find((p) => toSlug(p.title) === realParams.slug);
 
   if (!project) {
     return {
@@ -44,7 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description:
         project.description ||
         'Detailed project description by Mladen Todorović.',
-      url: `https://tvoj-portfolio.com/my-projects/${params.slug}`,
+      url: `https://tvoj-portfolio.com/my-projects/${realParams.slug}`,
       images: [
         {
           url:
@@ -74,9 +73,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const ProjectPage = ({ params }: Props) => {
+const ProjectPage = async ({ params }: Props) => {
+  const realParams = await params;
   const allProjects = [...LIVE_PROJECTS, ...OTHER_PROJECTS];
-  const project = allProjects.find((p) => toSlug(p.title) === params.slug);
+  const project = allProjects.find((p) => toSlug(p.title) === realParams.slug);
 
   if (!project) {
     return (
