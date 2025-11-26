@@ -58,42 +58,4 @@ export const OTHER_PROJECTS = [
     liveLink: '',
     status: 'not-live',
   },
-  {
-    title: 'Canva Translation App',
-    description:
-      'A React and TypeScript app integrated with the Canva platform that allows users to upload images, extract text via backend AI services, and translate the extracted text into multiple languages. The translated text replaces the original text within the Canva environment using Canva’s SDK and libraries.',
-    imageUrl: '',
-    techs: [
-      'React',
-      'TypeScript',
-      '@canva/app-ui-kit',
-      '@canva/app-i18n-kit',
-      'React Query',
-    ],
-    role: 'Frontend Developer responsible for integrating Canva SDK and building translation workflows.',
-    duration: 'April 2025 - April 2025',
-    team: 'Developed concurrently with several other projects by one frontend developer and one backend developer.',
-    liveLink: '',
-    status: 'not-live',
-  },
-  {
-    title: 'Glydr Budget App',
-    description:
-      'A Progressive Web App (PWA) for comprehensive personal financial management. Enables users to securely connect multiple bank accounts via Plaid API, track spending habits with detailed categories and trends, customize budgets, monitor savings goals, and visualize financial data through interactive charts. Designed to offer native app-like performance, responsive on all devices, with high security and scalability for thousands of concurrent users.',
-    imageUrl: '',
-    techs: [
-      'React',
-      'TypeScript',
-      'Mui Material',
-      'PWA',
-      'React Query',
-      'Zustand',
-      'Plaid API',
-    ],
-    role: 'Frontend Developer responsible for implementing UI components, integrating Plaid API, and building secure, high-performance features.',
-    duration: 'April 2025 - June 2025',
-    team: 'Developed concurrently with several other projects by two frontend developers and one backend developer.',
-    liveLink: '',
-    status: 'not-live',
-  },
 ];
