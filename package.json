@@ -12,10 +12,10 @@
   "dependencies": {
     "@heroui/react": "^2.7.11",
     "@heroui/theme": "^2.4.17",
-    "next": "15.3.6",
+    "next": "^15.3.8",
     "next-sitemap": "^4.2.3",
-    "react": "^19.0.1",
-    "react-dom": "^19.0.1"
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
